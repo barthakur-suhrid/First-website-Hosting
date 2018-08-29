@@ -297,12 +297,13 @@ h2{
 }
 
 
-@media all and  (max-width:800px){
+@media all and  (max-width:600px){
 
 	.nav_bar ul{
 		flex-direction: column;
-		line-height: 15px;
-		font-size: 10px;
+		line-height: 20px;
+		font-size: 30px;
+		letter-spacing: 3px;
 	}
 
 	.content{
