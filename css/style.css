@@ -26,6 +26,7 @@ body,html{
 	top: 0px;
 	width:100%;
 	height: auto;
+	z-index: 1;
 
 }
 
@@ -132,6 +133,7 @@ h2{
 
 .members{
 	flex:1;
+	box-sizing: border-box;
 	background-image:linear-gradient(rgba(255,146,24,0.7),rgba(0,0,0,0.7)),url("../images/band.jpg") ;
 	background-size:100% 100%;
 	font-size: 2.2vw;
@@ -140,6 +142,8 @@ h2{
 
 
 }
+
+
 
 
 
@@ -191,6 +195,8 @@ h2{
 .content p{
 	font-size: 1.462vw;
 }
+
+
 
 /*
 .members a{
@@ -272,6 +278,11 @@ h2{
 	text-decoration: none;
 	font-size: 1.5vw;
 }
+
+.Toggle_available li a:hover{
+	text-decoration: none;
+	font-size: 2vw;
+}
 .footer_image{
 	display: flex;
 	flex:1;
@@ -295,6 +306,37 @@ h2{
 .social i{
 	margin-right: 3.655vw; 
 }
+
+.social i:hover{
+	font-size:150%;
+
+}
+
+.social .fa-facebook:hover{
+	color:#3B5998;
+
+}
+
+.social .fa-twitter-square:hover{
+	color:#1DA1F2;
+
+}
+
+.social .fa-instagram:hover{
+
+	color: #d6249f;
+
+}
+
+.social .fa-rss:hover{
+
+	color:orange;
+}
+
+.social .fa-google-plus-g:hover{
+	color: rgb(205,55,23);
+}
+
 
 .video{
 	display: flex;
@@ -332,6 +374,13 @@ h2{
 	flex:1;
 	order:2;
 	padding: 5px;
+}
+
+.video_container iframe:hover{
+	
+	width:45vw;
+	height: 50vh;
+
 }
 
 
@@ -412,6 +461,11 @@ h2{
 	height: 100%;
 	}
 
+	.video_container iframe:hover{
+	width:100%;
+	height: 50vh;
+	}
+
 	.Foot{
 		display: flex;
 		flex-direction:column;
@@ -469,9 +523,6 @@ h2{
 		justify-content:space-around;
 		font-size: 10px;
 	}
-	.social i:hover{
-		font-size:15px;
 
-	}
 }
 
