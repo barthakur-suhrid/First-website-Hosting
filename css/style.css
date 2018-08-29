@@ -7,16 +7,18 @@ body,html{
 	display: flex;
 	flex-direction: column;
 	font-family:'Kosugi Maru',sans-serif;
-	background-image: url("../images/Hero.jpg");
-	background-size:100vw 100vh;	
-	height: 100vh;
+	
 	box-sizing: border-box;
+	overflow: hidden;
 }
 
 .hero_wrapper{
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
+	overflow:hidden;
+	background-image: url("../images/Hero.jpg");
+	background-size:100% 100%; 
 }
 
 .nav_bar{
@@ -295,7 +297,7 @@ h2{
 }
 
 
-@media all and  (max-width:600px){
+@media all and  (max-width:800px){
 
 	.nav_bar ul{
 		flex-direction: column;
