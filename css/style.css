@@ -77,11 +77,9 @@ body,html{
 	flex-direction: column;
 	color:rgb(224,224,224);
 	padding-top:  70px;
-	/*position: relative;*/
 	text-align: center;
 	justify-content:center;
-	height:100vh;`
-	/*top:33.33%;*/
+	height:100vh;
 
 }
 .hero ul {
@@ -196,35 +194,6 @@ h2{
 	font-size: 1.462vw;
 }
 
-
-
-/*
-.members a{
-	text-decoration:overline;
-	font-size: 1.5vw;
-	text-align: right;
-	color: white;
-	position: relative;
-	bottom: 0px;
-}
-
-.history a{
-	text-decoration:overline;
-	font-size: 2vw;
-	text-align: right;
-	color: white;
-	position: relative;
-	top:12vh;
-}
-
-.know_more a{
-	text-decoration:overline;
-	font-size: 2vw;
-	text-align: right;
-	color: white;
-	position: relative;
-	top:12vh;
-}*/
 
 .content a{
 	text-decoration:overline;
@@ -346,7 +315,6 @@ h2{
 .video_container{
 	padding:15px 10px 15px 10px;
 	background:linear-gradient(rgba(255,0,0,0.5),rgba(0,0,0,0.3)),url(../images/video.jpeg);
-	background-image: 100% 100%;
 	display: flex;
 }
 
