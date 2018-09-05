@@ -36,12 +36,12 @@ body,html{
 
 .nav_bar ul{
 	display: flex;
-	border:0.73vw solid rgba(255,0,0,0.0);
     background:rgba(51,0,102,0.7);
-    padding:0.73vw;
+    /*padding:0.73vw;*/
     margin-top:0px;
     list-style: none;
-    align-items: center;
+    justify-content:space-around;
+    align-items:center;
     flex-wrap:wrap;
 }
 
@@ -55,8 +55,8 @@ body,html{
 }
 
 .nav_bar li img{
-	width:7vw;
-	height:7vw;
+	width:4.5vw;
+	height:9vh;
 
 	color:white;
 	flex:3; 
@@ -375,9 +375,12 @@ h5{
 
 	.nav_bar ul{
 		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content:center;
 		line-height: 20px;
 		font-size: 30px;
 		letter-spacing: 3px;
+		padding: 0px;
 	}
 
 	.content{
